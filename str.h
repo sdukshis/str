@@ -1,3 +1,5 @@
+// Reduced version of std::string interface for education porpose
+
 #pragma once
 
 #include <cstddef>
