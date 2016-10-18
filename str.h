@@ -132,12 +132,12 @@ public:
 Str operator+(const Str& lhs, const Str& rhs);
 
 // Lexicographically compares two strings
-Str operator==(const Str& lhs, const Str& rhs);
-Str operator!=(const Str& lhs, const Str& rhs);
-Str operator<(const Str& lhs, const Str& rhs);
-Str operator>(const Str& lhs, const Str& rhs);
-Str operator<=(const Str& lhs, const Str& rhs);
-Str operator>=(const Str& lhs, const Str& rhs);
+bool operator==(const Str& lhs, const Str& rhs);
+bool operator!=(const Str& lhs, const Str& rhs);
+bool operator<(const Str& lhs, const Str& rhs);
+bool operator>(const Str& lhs, const Str& rhs);
+bool operator<=(const Str& lhs, const Str& rhs);
+bool operator>=(const Str& lhs, const Str& rhs);
 
 // Performs stream output on Str
 std::ostream& operator<<(std::ostream& stream, const Str& str);
